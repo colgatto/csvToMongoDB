@@ -1,0 +1,25 @@
+{
+  "name": "csvtomongo",
+  "version": "1.0.0",
+  "description": "convert csv file to mongoDB collection",
+  "main": "index.js",
+  "dependencies": {
+    "cross-env": "^5.1.0",
+    "mongodb": "^2.2.25",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {},
+   "scripts": {
+    "start": "node index.js > out.query && mongo csv out.query && del out.query"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colgatto/csvToMongo.git"
+  },
+  "author": "colgatto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/colgatto/csvToMongo/issues"
+  },
+  "homepage": "https://github.com/colgatto/csvToMongo#readme"
+}
