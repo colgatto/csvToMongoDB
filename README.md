@@ -20,7 +20,7 @@ install
 * [mongoDB-server](https://www.mongodb.com/download-center#community)
 * [nodejs](https://nodejs.org)
 
-##Usage 
+## Usage 
 
 first time run 
 ```
@@ -30,11 +30,11 @@ $ sudo npm install
 if you run  on linux change line 13 of package.json from 
 
 ```
-    "start": "node index.js > out.query && mongo csv out.query && del out.query"
+$ "start": "node index.js > out.query && mongo csv out.query && del out.query"
 ```
 to
 ```
-    "start": "node index.js > out.query && mongo csv out.query && rm out.query"
+$ "start": "node index.js > out.query && mongo csv out.query && rm out.query"
 ```
 
 change first line of index.js with database name that you want
@@ -42,7 +42,7 @@ change first line of index.js with database name that you want
 now you can put csv file into 'csv' directory and then run
 
 ```
-    npm start
+$ npm start
 ```
 
 the script create new db and add collection for every csv in directory
