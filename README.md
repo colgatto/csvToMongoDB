@@ -1,5 +1,7 @@
 # csv To MongoDB
 
+[![HitCount](http://hits.dwyl.io/colgatto/csvToMongoDB.svg)](http://hits.dwyl.io/colgatto/csvToMongoDB)
+
 convert csv file to mongoDB collection
 
 ## Getting Started
